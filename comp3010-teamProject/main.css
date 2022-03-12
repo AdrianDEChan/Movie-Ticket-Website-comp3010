@@ -1,0 +1,2084 @@
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.search-bar {
+  display: flex;
+  font-size: 18px;
+  font-weight: 200;
+  border: 1px solid #2671c6;
+  border-radius: 0 4px 4px; }
+  .search-bar-input {
+    flex-grow: 1;
+    font-size: 18px;
+    font-weight: 200;
+    border: none;
+    padding: 4px; }
+    .search-bar-input::placeholder {
+      color: #b0b0b0; }
+  .search-bar-button {
+    background: #14468b;
+    color: #FFF;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 4px 8px;
+    transition: background 0.2s; }
+    .search-bar-button:hover {
+      transition: background 0.2s;
+      background: #2671c6;
+      cursor: pointer; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 8px 0 8px 0;
+  background: #14468b;
+  border-bottom: 4px solid #09306b;
+  box-shadow: #09306b 0 0 15px; }
+  .header-search {
+    font-size: 14px; }
+    .header-search.hidden {
+      opacity: 0;
+      pointer-events: none; }
+    .header-search-spacer {
+      flex-grow: 1;
+      width: 296px;
+      height: 28px; }
+    .header-search input, .header-search button {
+      font-size: 14px; }
+    .header-search input {
+      width: 256px; }
+  .header-wrap {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; }
+    .header-wrap-content {
+      display: flex;
+      justify-content: space-between;
+      width: 65%;
+      padding: 4px;
+      font-size: 18px;
+      font-weight: 200;
+      color: #FFF; }
+      .header-wrap-content-logo {
+        font-weight: 600;
+        font-size: 24px;
+        text-decoration: none;
+        color: #FFF; }
+        .header-wrap-content-logo span {
+          color: #ddba18; }
+        .header-wrap-content-logo:hover {
+          cursor: pointer; }
+      .header-wrap-content-link:hover {
+        text-decoration: underline;
+        cursor: pointer; }
+      .header-wrap-content-item {
+        margin: auto;
+        flex-grow: 1; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.content-page-body {
+  display: flex;
+  justify-content: space-around;
+  min-height: 100vh; }
+  .content-page-body-content {
+    width: 65%;
+    padding: 32px;
+    background: #ffffff;
+    color: #1e1e1e; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.tabs {
+  display: flex;
+  flex-direction: column; }
+  .tabs-bar {
+    display: flex;
+    height: 48px;
+    width: 100%;
+    font-size: 16px;
+    border-bottom: 1px solid #9b9ba7;
+    margin-bottom: 16px; }
+    .tabs-bar-tab {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      height: 24px;
+      bottom: -8px;
+      width: 128px;
+      border-right: 1px solid #ffffff;
+      border-left: 1px solid #ffffff;
+      padding: 8px;
+      cursor: pointer;
+      background: #14468b;
+      color: #FFF;
+      transition: background 0.2s; }
+      .tabs-bar-tab:first-child {
+        border-left: 1px solid #ffffff; }
+      .tabs-bar-tab:hover {
+        background: #2671c6;
+        transition: background 0.2s; }
+      .tabs-bar-tab.active {
+        height: auto;
+        bottom: -1px;
+        border-top: 1px solid #9b9ba7;
+        border-right: 1px solid #9b9ba7;
+        border-left: 1px solid #9b9ba7;
+        background: #ffffff;
+        color: #14468b;
+        font-weight: 600;
+        cursor: default;
+        transition: background 0s; }
+        .tabs-bar-tab.active:first-child {
+          border-left: 1px solid #9b9ba7; }
+        .tabs-bar-tab.active:hover {
+          background: #ffffff;
+          transition: background 0s; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.tile-movie {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  width: 192px;
+  padding: 8px;
+  border: 1px solid #d0d0d0;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: none;
+  transition: box-shadow 0.2s; }
+  .tile-movie:hover {
+    box-shadow: #9b9ba7 0 0 16px;
+    transition: box-shadow 0.2s; }
+  .tile-movie-image {
+    height: 285px;
+    width: 192px; }
+  .tile-movie-title {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 0;
+    height: 48px; }
+  .tile-movie-date {
+    display: flex;
+    justify-content: space-around;
+    padding: 4px 0;
+    color: #b0b0b0;
+    height: 24px; }
+  .tile-movie-tickets {
+    width: 100%; }
+    .tile-movie-tickets-up {
+      position: absolute;
+      bottom: 16px;
+      left: 8px;
+      width: calc(100% - 16px) !important;
+      font-size: 24px;
+      color: #ffffff;
+      transition: color 0.2s, bottom 0.2s; }
+    .tile-movie-tickets:hover .tile-movie-tickets-up {
+      bottom: 32px;
+      color: #d0d0d0;
+      transition: color 0.2s, bottom 0.2s; }
+    .tile-movie-tickets-button {
+      position: relative;
+      outline: none;
+      border: 1px solid #d0d0d0;
+      background: #ffffff;
+      width: 100%;
+      font-size: 18px;
+      font-weight: 200;
+      color: #1e1e1e;
+      padding: 4px;
+      cursor: pointer;
+      z-index: 1;
+      transition: background 0.2s; }
+      .tile-movie-tickets-button:hover {
+        background: #d0d0d0;
+        transition: background 0.2s; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.tile-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -16px;
+  margin-right: -16px; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.showtime-button-button {
+  width: 82px;
+  max-width: 82px;
+  min-width: 82px;
+  height: 32px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #d0d0d0;
+  color: #404040;
+  background: #ffffff;
+  transition: background 0.2s; }
+  .showtime-button-button:hover {
+    background: #d0d0d0;
+    transition: background 0.2s; }
+
+.showtime-button-seating {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #d0d0d0;
+  border-left: none;
+  background: #ffffff;
+  transition: background 0.2s; }
+  .showtime-button-seating:hover {
+    background: #d0d0d0;
+    transition: background 0.2s; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.modal {
+  display: none;
+  flex-direction: row;
+  align-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  opacity: 0;
+  z-index: 15;
+  transition: opacity 0.2s; }
+  .modal.active {
+    display: flex;
+    opacity: 1;
+    transition: opacity 0.2s;
+    /* TODO: This doesn't work for some unknown reason */ }
+  .modal-window {
+    position: relative;
+    margin: auto;
+    background: #ffffff;
+    color: #1e1e1e;
+    z-index: 18; }
+    .modal-window-close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 25px;
+      height: 25px;
+      font-size: 20px;
+      text-align: center;
+      cursor: pointer;
+      color: #14468b;
+      transition: color 0.2s; }
+      .modal-window-close:hover {
+        color: #2671c6;
+        transition: color 0.2s; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.grid {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; }
+  .grid-column-full {
+    flex: 0 0 100%; }
+  .grid-column-half {
+    flex: 0 0 50%; }
+  .grid-column-third {
+    flex: 0 0 33.33%; }
+  .grid-column-two-thirds {
+    flex: 0 0 66.67%; }
+  .grid-column-quarter {
+    flex: 0 0 25%; }
+  .grid-column-three-quarters {
+    flex: 0 0 75%; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.seating-preview {
+  height: 100%;
+  margin: 32px; }
+  .seating-preview .centered {
+    display: flex;
+    justify-content: center;
+    margin: 0 64px; }
+  .seating-preview-map {
+    display: flex;
+    flex-direction: column; }
+    .seating-preview-map-buttons {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      flex-grow: 1;
+      align-self: flex-start; }
+      .seating-preview-map-buttons h2 {
+        margin-top: 0; }
+      .seating-preview-map-buttons-screen {
+        width: 192px;
+        outline: 1px solid #9b9ba7;
+        margin-bottom: 32px;
+        font-size: 14px;
+        text-align: center; }
+      .seating-preview-map-buttons-seats {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-grow: 1; }
+        .seating-preview-map-buttons-seats-row {
+          display: flex; }
+          .seating-preview-map-buttons-seats-row-button {
+            width: 24px;
+            height: 24px;
+            background: #ffffff;
+            outline: 1px solid #3d3d41;
+            border: none;
+            transition: background 0.2s;
+            cursor: pointer; }
+            .seating-preview-map-buttons-seats-row-button:nth-child(3) {
+              margin-right: 16px; }
+            .seating-preview-map-buttons-seats-row-button:nth-child(10) {
+              margin-left: 16px; }
+            .seating-preview-map-buttons-seats-row-button:hover {
+              background: #d0d0d0;
+              transition: background 0.2s; }
+            .seating-preview-map-buttons-seats-row-button.unavailable {
+              cursor: default;
+              background: #9b9ba7;
+              transition: background 0.2s; }
+              .seating-preview-map-buttons-seats-row-button.unavailable:hover {
+                background: #3d3d41;
+                transition: background 0.2s; }
+            .seating-preview-map-buttons-seats-row-button.accessibility {
+              z-index: 1;
+              outline: 1px solid #09306b;
+              background: #2671c6;
+              transition: background 0.2s; }
+              .seating-preview-map-buttons-seats-row-button.accessibility:hover {
+                background: #14468b;
+                transition: background 0.2s; }
+            .seating-preview-map-buttons-seats-row-button.selected {
+              z-index: 1;
+              outline: 1px solid #af7f28;
+              background: #ffe01f;
+              transition: background 0.2s; }
+              .seating-preview-map-buttons-seats-row-button.selected:hover {
+                background: #ddba18;
+                transition: background 0.2s; }
+    .seating-preview-map-legend {
+      margin: 32px 32px 32px 0;
+      width: 256px;
+      align-self: flex-start; }
+      .seating-preview-map-legend-column {
+        display: flex;
+        flex-direction: column; }
+      .seating-preview-map-legend div {
+        margin-top: 8px;
+        vertical-align: text-bottom; }
+      .seating-preview-map-legend .legend {
+        display: inline-block;
+        margin-right: 8px; }
+      .seating-preview-map-legend .unavailable {
+        width: 16px;
+        height: 16px;
+        outline: 1px solid #3d3d41;
+        border: none;
+        background: #9b9ba7; }
+      .seating-preview-map-legend .accessibility {
+        width: 16px;
+        height: 16px;
+        border: none;
+        outline: 1px solid #09306b;
+        background: #2671c6; }
+      .seating-preview-map-legend .available {
+        width: 16px;
+        height: 16px;
+        border: none;
+        outline: 1px solid #3d3d41;
+        background: #ffffff; }
+      .seating-preview-map-legend .selected {
+        width: 16px;
+        height: 16px;
+        border: none;
+        outline: 1px solid #af7f28;
+        background: #ffe01f; }
+  .seating-preview-info {
+    margin-left: 32px; }
+    .seating-preview-info h2 {
+      margin-top: 0; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.showtimes-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+  .showtimes-box-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px; }
+    .showtimes-box-row-labels h5 {
+      font-weight: 600;
+      min-width: 84px;
+      line-height: 41px;
+      text-align: right;
+      padding-right: 8px;
+      margin: 0; }
+    .showtimes-box-row-showtimes {
+      flex-grow: 1; }
+      .showtimes-box-row-showtimes-button {
+        display: inline-block;
+        margin: 4px; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.autosuggest {
+  display: inline-block;
+  position: relative;
+  height: 32px;
+  width: 192px;
+  outline: 1px solid #d0d0d0;
+  transition: background 0.2s, color 0.2s; }
+  .autosuggest.colored-flash {
+    background: #ddba18;
+    transition: background 0.2s, color 0.2s; }
+  .autosuggest input, .autosuggest input:focus, .autosuggest button {
+    border: none;
+    outline-offset: 0;
+    background: none;
+    vertical-align: middle;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 32px);
+    height: 100%; }
+  .autosuggest button {
+    height: 32px;
+    text-align: left;
+    cursor: pointer; }
+  .autosuggest-wrapper {
+    position: absolute;
+    top: 0;
+    left: 4px;
+    height: 100%;
+    width: calc(100% - 8px); }
+  .autosuggest .icon {
+    position: absolute;
+    right: 12px;
+    top: 4px;
+    color: #d0d0d0; }
+    .autosuggest .icon.colored {
+      color: #14468b; }
+  .autosuggest-dropdown {
+    position: absolute;
+    display: none;
+    top: 32px;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    outline: 1px solid #d0d0d0;
+    z-index: 9; }
+    .autosuggest-dropdown.active {
+      display: flex;
+      flex-direction: column;
+      height: 256px;
+      overflow-y: scroll;
+      overscroll-behavior-y: contain; }
+    .autosuggest-dropdown .item {
+      padding: 8px;
+      border-top: 1px solid #d0d0d0;
+      background: #ffffff;
+      transition: background 0.2s;
+      cursor: pointer;
+      z-index: 6; }
+      .autosuggest-dropdown .item.selected {
+        font-weight: 600; }
+      .autosuggest-dropdown .item:hover {
+        background: #d0d0d0;
+        transition: background 0.2s; }
+  .autosuggest-catch-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 8; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.express-box {
+  position: relative;
+  width: 100%;
+  margin-bottom: 32px; }
+  .express-box .window-open {
+    position: absolute;
+    top: 72px;
+    left: calc(50% - 5px);
+    color: #14468b;
+    cursor: pointer; }
+    .express-box .window-open:hover {
+      color: #2671c6;
+      transition: color 0.2s; }
+  .express-box .window-close {
+    display: flex;
+    justify-content: center;
+    height: 24px;
+    color: #14468b;
+    cursor: pointer; }
+    .express-box .window-close:hover {
+      color: #2671c6;
+      transition: color 0.2s; }
+  .express-box-gallery {
+    position: relative;
+    overflow: hidden;
+    margin-top: 32px; }
+    .express-box-gallery-showtimes {
+      position: absolute;
+      width: 100%;
+      top: -800px;
+      left: 0;
+      background: #ffffff;
+      box-shadow: #141417 0 0 30px 10px;
+      z-index: 7;
+      transition: top 0.5s; }
+      .express-box-gallery-showtimes.active {
+        top: 0;
+        transition: top 0.5s; }
+    .express-box-gallery-wrapper {
+      position: relative;
+      display: flex; }
+      .express-box-gallery-wrapper .left-scroll, .express-box-gallery-wrapper .right-scroll {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        height: 100%;
+        width: 128px;
+        color: #FFF;
+        font-size: 18px;
+        opacity: 0;
+        cursor: pointer;
+        z-index: 4;
+        transition: font-size 0.2s; }
+        .express-box-gallery-wrapper .left-scroll:hover, .express-box-gallery-wrapper .right-scroll:hover {
+          font-size: 24px;
+          transition: font-size 0.2s; }
+      .express-box-gallery-wrapper .left-scroll {
+        justify-content: flex-start;
+        padding-left: 32px;
+        left: 0; }
+      .express-box-gallery-wrapper .right-scroll {
+        justify-content: flex-end;
+        padding-right: 32px;
+        right: 0; }
+      .express-box-gallery-wrapper:hover .left-scroll, .express-box-gallery-wrapper:hover .right-scroll {
+        opacity: 1;
+        transition: opacity 0.2s; }
+      .express-box-gallery-wrapper .shadow {
+        width: 1px;
+        z-index: 3;
+        box-shadow: #141417 0 0 150px 100px; }
+      .express-box-gallery-wrapper-scroll {
+        display: flex;
+        height: 384px;
+        outline: 1px solid #d0d0d0;
+        background: #141417;
+        overflow-x: scroll;
+        overscroll-behavior-x: contain;
+        -ms-overflow-style: none;
+        scrollbar-width: none; }
+        .express-box-gallery-wrapper-scroll::-webkit-scrollbar {
+          display: none; }
+        .express-box-gallery-wrapper-scroll .poster {
+          height: 100%;
+          width: auto;
+          cursor: pointer; }
+          .express-box-gallery-wrapper-scroll .poster:hover {
+            z-index: 2;
+            box-shadow: #141417 0 0 650px 128px;
+            transition: box-shadow 0.4s; }
+  .express-box-theatre, .express-box-movie, .express-box-date {
+    flex-grow: 1; }
+  .express-box-tickets-wrapper {
+    display: flex;
+    justify-content: space-between; }
+  .express-box-movie-item {
+    display: flex; }
+    .express-box-movie-item img {
+      width: 32px;
+      height: auto; }
+    .express-box-movie-item div {
+      margin-left: 8px; }
+  .express-box-theatre-item .sub {
+    font-size: 12px; }
+  .express-box-theatre-item .split {
+    display: flex;
+    justify-content: space-between; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.home-movie-tile {
+  margin: 16px; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.stars {
+  display: flex;
+  width: fit-content; }
+  .stars-container {
+    position: relative; }
+    .stars-container-empty {
+      opacity: 0.25; }
+    .stars-container-full {
+      position: absolute;
+      top: 0;
+      left: 0; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.tile-theatre {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px;
+  border: 1px solid #d0d0d0;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: none;
+  transition: box-shadow 0.2s; }
+  .tile-theatre:hover {
+    box-shadow: #9b9ba7 0 0 16px;
+    transition: box-shadow 0.2s; }
+  .tile-theatre-wrapper {
+    margin-bottom: 8px; }
+  .tile-theatre-name-row {
+    display: flex;
+    justify-content: space-between; }
+    .tile-theatre-name-row-name {
+      margin-top: 8px; }
+    .tile-theatre-name-row-rating {
+      display: flex;
+      width: 128px;
+      justify-content: flex-end;
+      margin-top: 8px;
+      color: #14468b; }
+  .tile-theatre-postal-code-row {
+    display: flex;
+    justify-content: space-between; }
+    .tile-theatre-postal-code-row-distance {
+      display: inline-block;
+      font-size: 14px;
+      color: #404040; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.search-search-bar {
+  font-size: 18px;
+  margin-bottom: 32px; }
+
+.search-theatre-grid {
+  display: flex;
+  flex-wrap: wrap; }
+  .search-theatre-grid-tile {
+    width: calc(50% - 18px);
+    /* Fit 2 per row - No idea where the -18px is coming from */ }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.nearby-theatres {
+  width: 100%;
+  height: 192px;
+  outline: 1px solid #d0d0d0;
+  overflow-y: scroll; }
+  .nearby-theatres .theatre-item-wrapper:not(:first-child) {
+    border-top: 1px solid #d0d0d0; }
+  .nearby-theatres .theatre-item-wrapper {
+    background: #ffffff;
+    padding: 4px 8px;
+    cursor: pointer;
+    transition: background 0.2s; }
+    .nearby-theatres .theatre-item-wrapper:hover {
+      background: #d0d0d0;
+      transition: background 0.2s; }
+  .nearby-theatres .theatre-item .sub {
+    font-size: 12px; }
+  .nearby-theatres .theatre-item .split {
+    display: flex;
+    justify-content: space-between; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.date-row {
+  display: flex;
+  width: 100%;
+  height: 84px;
+  outline: 1px solid #d0d0d0; }
+  .date-row-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    cursor: pointer;
+    background: #ffffff;
+    transition: background 0.2s; }
+    .date-row-item:not(:last-child) {
+      border-right: 1px solid #d0d0d0; }
+    .date-row-item:hover {
+      background: #d0d0d0;
+      transition: background 0.2s; }
+    .date-row-item.selected {
+      color: #FFF;
+      background: #14468b;
+      cursor: default; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.column-list {
+  display: flex;
+  flex-direction: column; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.movie-row {
+  padding: 8px;
+  outline: 1px solid #d0d0d0;
+  box-shadow: none;
+  transition: box-shadow 0.2s; }
+  .movie-row:hover {
+    box-shadow: #9b9ba7 0 0 16px;
+    transition: box-shadow 0.2s; }
+  .movie-row-data {
+    display: flex;
+    cursor: pointer; }
+    .movie-row-data-poster-column {
+      height: auto;
+      width: 128px; }
+      .movie-row-data-poster-column img {
+        height: auto;
+        width: 128px; }
+    .movie-row-data-info-column {
+      flex-grow: 1;
+      padding-left: 16px; }
+      .movie-row-data-info-column-title {
+        margin-top: 0;
+        width: 140px; }
+        .movie-row-data-info-column-title:hover {
+          text-decoration: underline; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.theatre-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 16px; }
+  .theatre-info-directions {
+    margin-top: 16px; }
+    .theatre-info-directions a {
+      color: #14468b;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer; }
+      .theatre-info-directions a:hover {
+        text-decoration: underline; }
+  .theatre-info-name, .theatre-info-nearby {
+    margin-top: 0; }
+  .theatre-info-extra {
+    margin-bottom: 16px; }
+    .theatre-info-extra-rating {
+      display: inline-block;
+      color: #14468b; }
+    .theatre-info-extra-distance {
+      display: inline-block;
+      margin-left: 16px; }
+
+.theatre-date-picker {
+  margin: 32px 0; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.gallery-box {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  outline: 1px solid #d0d0d0; }
+  .gallery-box-wrapper {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #3d3d41; }
+    .gallery-box-wrapper .scroll {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      width: 64px;
+      min-width: 64px;
+      background: #141417;
+      overflow-y: scroll;
+      overscroll-behavior-y: contain;
+      -ms-overflow-style: none;
+      scrollbar-width: none; }
+      .gallery-box-wrapper .scroll::-webkit-scrollbar {
+        display: none; }
+      .gallery-box-wrapper .scroll-thumb {
+        width: 100%;
+        height: 64px;
+        object-fit: cover;
+        padding: 2px 0;
+        box-shadow: none;
+        cursor: pointer;
+        transition: box-shadow 0.8s; }
+        .gallery-box-wrapper .scroll-thumb:first-child {
+          padding-top: 4px; }
+        .gallery-box-wrapper .scroll-thumb:last-child {
+          padding-bottom: 4px; }
+        .gallery-box-wrapper .scroll-thumb:hover {
+          z-index: 1;
+          box-shadow: #141417 0 0 650px 128px;
+          transition: box-shadow 0.4s; }
+    .gallery-box-wrapper button {
+      width: 100%;
+      height: 32px;
+      min-height: 32px;
+      background: #3d3d41;
+      color: #FFF;
+      outline: none;
+      border: none;
+      transition: background 0.2s;
+      cursor: pointer; }
+      .gallery-box-wrapper button:first-child {
+        border-bottom: 1px solid #3d3d41; }
+      .gallery-box-wrapper button:last-child {
+        border-top: 1px solid #3d3d41; }
+      .gallery-box-wrapper button:hover {
+        background: #141417;
+        transition: background 0.2s; }
+  .gallery-box-view {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    background: #141417;
+    cursor: pointer; }
+    .gallery-box-view img {
+      object-fit: scale-down;
+      max-width: 100%;
+      max-height: 100%; }
+  .gallery-box-big img {
+    padding: 32px;
+    object-fit: scale-down;
+    max-width: 650px;
+    max-height: 650px; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.movie-gallery {
+  height: 512px; }
+
+.movie-info {
+  margin-right: 16px; }
+  .movie-info-title {
+    margin-top: 0; }
+  .movie-info-label {
+    display: inline-block;
+    padding-right: 8px;
+    height: 18px;
+    line-height: 18px;
+    vertical-align: text-bottom; }
+  .movie-info-container-stars {
+    display: inline-block;
+    margin-right: 32px; }
+    .movie-info-container-stars-display {
+      color: #14468b;
+      display: inline-block;
+      vertical-align: bottom;
+      line-height: 24px;
+      font-size: 16px; }
+  .movie-info-container-length {
+    display: inline-block;
+    margin-right: 32px; }
+  .movie-info-container-age-rating {
+    display: inline-block;
+    margin-right: 32px; }
+
+.movie-tickets-search {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px; }
+
+.movie-tickets-showtimes-spacer {
+  margin-bottom: 256px; }
+
+.movie .autosuggest {
+  margin: 0 8px; }
+
+.movie .theatre-dropdown {
+  width: 384px; }
+
+.movie .theatre-dropdown-item .sub {
+  font-size: 12px; }
+
+.movie .theatre-dropdown-item .split {
+  display: flex;
+  justify-content: space-between; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
+.checkout-theatre-directions {
+  margin-top: 16px; }
+  .checkout-theatre-directions a {
+    color: #14468b;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer; }
+    .checkout-theatre-directions a:hover {
+      text-decoration: underline; }
+
+.checkout-time-left {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  left: 0;
+  height: 64px;
+  border-top: 4px solid #09306b;
+  width: 100%;
+  background: #14468b;
+  color: #ddba18;
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  z-index: 14; }
+
+.checkout-progress {
+  position: relative; }
+  .checkout-progress h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0; }
+  .checkout-progress-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px; }
+    .checkout-progress-bar-wrapper {
+      display: flex; }
+    .checkout-progress-bar-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #9b9ba7;
+      color: #9b9ba7;
+      font-size: 18px;
+      border-radius: 32px;
+      width: 32px;
+      height: 32px; }
+      .checkout-progress-bar-icon.active {
+        color: #FFF;
+        background: #14468b;
+        border: 1px solid #2671c6; }
+    .checkout-progress-bar-line {
+      height: 16px;
+      width: 64px;
+      border-bottom: 1px solid #9b9ba7; }
+
+.checkout-button {
+  height: 32px;
+  width: 128px; }
+  .checkout-button.purchase {
+    width: 192px; }
+  .checkout-button button {
+    height: 100%;
+    width: 100%;
+    vertical-align: text-bottom;
+    background: #14468b;
+    color: #FFF;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s; }
+    .checkout-button button:hover {
+      background: #2671c6;
+      transition: background 0.2s; }
+    .checkout-button button:disabled {
+      background: #9b9ba7;
+      cursor: default;
+      transition: background 0.2s; }
+      .checkout-button button:disabled:hover {
+        background: #d0d0d0;
+        transition: background 0.2s; }
+
+.checkout-section-wrapper {
+  height: 384px; }
+
+.checkout-movie {
+  display: flex; }
+  .checkout-movie-poster img {
+    height: auto;
+    width: 128px; }
+  .checkout-movie-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 16px; }
+    .checkout-movie-info h2 {
+      margin-top: 0; }
+    .checkout-movie-info-edit {
+      margin-top: 16px; }
+      .checkout-movie-info-edit a {
+        color: #14468b;
+        font-size: 12px;
+        font-weight: 600;
+        cursor: pointer; }
+        .checkout-movie-info-edit a:hover {
+          text-decoration: underline; }
+
+.checkout-tickets {
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+  .checkout-tickets h3 {
+    margin-top: 0; }
+  .checkout-tickets-wrapper {
+    flex-grow: 1; }
+    .checkout-tickets-wrapper h2 {
+      margin-top: 0; }
+  .checkout-tickets-total-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 384px; }
+  .checkout-tickets-total {
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 32px; }
+  .checkout-tickets-selector {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 8px;
+    justify-content: space-between;
+    width: 384px; }
+    .checkout-tickets-selector-label {
+      display: inline-block;
+      width: 64px; }
+    .checkout-tickets-selector-hint {
+      display: inline-block;
+      width: 32px;
+      font-size: 12px;
+      color: #b0b0b0;
+      margin-left: 8px; }
+    .checkout-tickets-selector-price {
+      display: inline-block;
+      width: 64px;
+      margin-left: 16px;
+      text-align: right; }
+    .checkout-tickets-selector-controls {
+      display: inline-block;
+      margin-left: 16px;
+      height: 32px; }
+      .checkout-tickets-selector-controls input {
+        height: 30px;
+        width: 48px;
+        font-size: 18px;
+        font-weight: 200;
+        border: 1px solid #9b9ba7;
+        outline: none;
+        padding: 0;
+        text-align: center;
+        vertical-align: middle; }
+        .checkout-tickets-selector-controls input::placeholder {
+          color: #b0b0b0; }
+      .checkout-tickets-selector-controls button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: #14468b;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 200;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        height: 100%;
+        width: 32px;
+        padding: 4px;
+        vertical-align: middle;
+        transition: background 0.2s; }
+        .checkout-tickets-selector-controls button:hover {
+          background: #2671c6;
+          transition: background 0.2s; }
+        .checkout-tickets-selector-controls button:last-child {
+          border-left: 1px solid #2671c6; }
+
+.checkout-seats {
+  display: flex;
+  flex-direction: column; }
+  .checkout-seats-selector {
+    margin: 0; }
+  .checkout-seats-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px; }
+
+.checkout-payment input {
+  border: 1px solid #d0d0d0;
+  outline: none;
+  background: none;
+  padding: 4px; }
+
+.checkout-payment h2 {
+  margin: 16px 0 16px 0; }
+
+.checkout-payment-summary .item .label {
+  display: inline-block;
+  width: 64px; }
+
+.checkout-payment-summary .item .price {
+  display: inline-block;
+  margin-left: 16px; }
+
+.checkout-payment-summary .fee {
+  margin-top: 16px; }
+
+.checkout-payment-total h2 {
+  border-top: 1px solid #d0d0d0;
+  padding-top: 8px;
+  width: 192px; }
+
+.checkout-payment-buttons {
+  display: flex;
+  justify-content: space-between; }
+
+.checkout-payment .contact .email {
+  margin-top: 4px;
+  width: 256px; }
+
+.checkout-payment .contact .promo {
+  margin-top: 16px; }
+
+.checkout-payment .required {
+  margin-left: 4px; }
+
+.checkout-payment-cc {
+  height: 256px; }
+  .checkout-payment-cc .name {
+    width: 256px; }
+  .checkout-payment-cc .card {
+    display: flex;
+    flex-grow: 1;
+    margin-top: 4px; }
+    .checkout-payment-cc .card .number {
+      width: 256px; }
+    .checkout-payment-cc .card .ccv {
+      width: 48px; }
+  .checkout-payment-cc .date {
+    width: 64px;
+    margin-top: 4px; }
+
+.checkout-payment-pp {
+  height: 256px; }
+  .checkout-payment-pp .paypal-button {
+    display: flex;
+    align-items: center; }
+    .checkout-payment-pp .paypal-button button {
+      background: url(https://i.imgur.com/mqOYCJ2.png);
+      width: 294px;
+      height: 43px;
+      cursor: pointer;
+      border-color: #ddba18; }
+    .checkout-payment-pp .paypal-button .paypal-success {
+      display: inline-block;
+      margin-left: 16px;
+      color: #14468b; }
+
+.checkout-confirmation h3 {
+  margin-top: 32px; }
+
+.checkout-confirmation-links {
+  margin-top: 32px;
+  font-size: 12px; }
+  .checkout-confirmation-links a {
+    margin-left: 16px;
+    font-weight: 600;
+    color: #2671c6;
+    cursor: pointer; }
+    .checkout-confirmation-links a:hover {
+      text-decoration: underline; }
+
+body {
+  margin: 0;
+  background: #141417;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #b0b0b0;
+  height: 100%; }
+  body strong {
+    font-weight: 600; }
+  body button, body input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; }
+  body h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h3 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h4 {
+    font-size: 18px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+  body h5 {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 16px 0 8px 0; }
+
